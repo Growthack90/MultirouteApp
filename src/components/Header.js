@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Navbar from "./Navbar.js";
+import Carousel from "./Carousel.js";
 
 export default class Header extends Component {
 
@@ -8,7 +10,8 @@ export default class Header extends Component {
     render() {
       return(
           <div>
-              header
+              <Navbar />
+              <Carousel />
           </div>
       );
     }
