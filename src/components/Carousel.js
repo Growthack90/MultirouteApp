@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Carousel } from 'react-bootstrap';
-import uno from "./1.jpg";
-import due from "./2.jpg";
-import tre from "./3.jpg";
+import uno from "./../images/images-carousel/1.jpg";
+import due from "./../images/images-carousel/2.jpg";
+import tre from "./../images/images-carousel/3.jpg";
 
 export default class Carosello extends Component {
 
